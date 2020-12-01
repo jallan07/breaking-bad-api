@@ -1,0 +1,16 @@
+<div class="card-columns mx-auto">
+    {{#each characters}}
+        <div class="card border-primary mb-3" style="max-width: 20rem;">
+        <img class="card-img-top" src="{{img}}" alt="Card image cap">
+        <div class="card-body">
+            <h4 class="card-title">{{name}} ({{nickname}})</h4>
+            <p class="card-text">Birthday: {{birthday}}</p>
+            <p class="card-text">Occupation: {{occupation}}</p>
+            <p class="card-text">Seasons: {{appearance}}</p>
+        </div>
+        <div class="card-footer">
+            <small class="text-muted">{{status}}</small>
+        </div>
+        </div>
+    {{/each}}
+</div>
