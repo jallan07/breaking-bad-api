@@ -1,0 +1,15 @@
+<div class="card-columns mx-auto">
+    {{#each deaths}}
+        <div class="card border-primary mb-3" style="max-width: 20rem;">
+        <div class="card-body">
+            <h4 class="card-title">{{death}}</h4>
+            <p class="card-text">Cause: {{cause}}</p>
+            <p class="card-text">Responsible: {{responsible}}</p>
+            <p class="card-text">Last Words: <em>"{{last_words}}"</em></p>
+        </div>
+        <div class="card-footer">
+            <small class="text-muted">Season {{season}}, Episode {{episode}}</small>
+        </div>
+        </div>
+    {{/each}}
+</div>
