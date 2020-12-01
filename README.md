@@ -84,4 +84,4 @@ Below is contact information for the author of this application. Please feel fre
 
 ---
 
-### Thank you for using <BR />ING BAD!
+### Thank you for using &#60;BR / &#62;ING BAD!
