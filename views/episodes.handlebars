@@ -1,0 +1,14 @@
+<div class="card-columns mx-auto">
+    {{#each episodes}}
+        <div class="card border-warning mb-3" style="max-width: 20rem;">
+        <div class="card-body">
+            <h4 class="card-title">{{title}}</h4>
+            <p class="card-text"><strong>Season:</strong> {{season}}</p>
+            <p class="card-text"><strong>Episode:</strong> <em>{{episode}}</em></p>
+        </div>
+        <div class="card-footer">
+            <small class="text-muted">First aired on {{air_date}}</small>
+        </div>
+        </div>
+    {{/each}}
+</div>

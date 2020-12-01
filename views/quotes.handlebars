@@ -1,0 +1,12 @@
+<div class="card-columns mx-auto">
+    {{#each quotes}}
+        <div class="card border-info mb-3" style="max-width: 20rem;">
+        <div class="card-body">
+            <h4 class="card-title">"{{quote}}"</h4>
+        </div>
+        <div class="card-footer">
+            <small class="text-muted">{{author}}</small>
+        </div>
+        </div>
+    {{/each}}
+</div>
